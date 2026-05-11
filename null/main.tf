@@ -23,3 +23,6 @@ variable "aloda" {
   }))
 }
 #
+data "http" "refresh_check" {
+  url = "https://httpstat.us/200"
+}
