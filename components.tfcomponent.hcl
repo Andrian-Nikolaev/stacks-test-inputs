@@ -10,6 +10,9 @@ variable "petname" {
 variable "petname2" {
   type        = list(string) 
 }
+variable "petname3" {
+  type        = list(string) 
+}
 variable "aloda" {
 type = map(object({
     current_kubernetes_version = map(string)
