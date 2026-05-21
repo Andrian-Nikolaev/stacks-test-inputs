@@ -8,13 +8,13 @@ petname3 = upstream_input.pet_names.simple_pet3
 }
 upstream_input "pet_names" {
   type   = "stack"
-  source = "app.terraform.io/onboarding-terraform-andrian/Application/stacks-test-outputs"
+  source = "app.terraform.io/onboarding-terraform-andrian/Stacks/stacks-test-outputs"
 }
 upstream_input "pet_names2" {
   type   = "stack"
-  source = "app.terraform.io/onboarding-terraform-andrian/Application/stacks-test-outputs"
+  source = "app.terraform.io/onboarding-terraform-andrian/Stacks/stacks-test-outputs"
 }
 upstream_input "pet_names3" {
   type   = "stack"
-  source = "app.terraform.io/onboarding-terraform-andrian/Application/stacks-test-outputs"
+  source = "app.terraform.io/onboarding-terraform-andrian/Stacks/stacks-test-outputs"
 }
